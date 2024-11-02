@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white; 
+  color: #333; 
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #4a90e2; /* Header background color */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 20px;
+}
+
+.logo img {
+  height: 50px; /* Logo height */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Updated Button Colors */
+.sign-in {
+  background-color: transparent; /* Sign In button background */
+  color: white;
+  border: 1px solid white;
+}
+
+.sign-up {
+  background-color: #ff9800; /* Sign Up button background */
+  color: white;
+}
+
+/* Hero Section Styles */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #e3f2fd; /* Light blue background for the hero section */
+}
+
+.hero-content h1 {
+  font-size: 2.5rem; /* Hero title size */
+}
+
+.hero-content p {
+  font-size: 1.2rem; /* Hero paragraph size */
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #ff9800; /* Get Started button background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Features Section Styles */
+.features {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+}
+
+.feature-card {
+  background-color: #f8f8f8; /* Normal card color */
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px; /* Fixed width for cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Card shadow */
+}
+
+.feature-icon {
+  font-size: 2rem; /* Icon size */
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f0f4f8; /* Light gray background */
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+}
+
+.testimonial-card {
+  background-color: white; /* White background for testimonial cards */
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px; /* Fixed width for testimonial cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Card shadow */
+}
+
+.user-image {
+  width: 80px; /* Set image size */
+  height: 80px;
+  border-radius: 50%; /* Circular image */
+  margin-bottom: 10px; /* Space below the image */
+}
+
+/* Call to Action Styles */
+.call-to-action {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #e3f2fd; /* Light blue background */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333; /* Footer background color */
+  color: white;
+  text-align: center; /* Centered footer content */
+  padding: 20px 0;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-media {
+  margin-bottom: 10px;
+}
+
+.newsletter {
+  margin-bottom: 10px;
+}
+
+.subscribe-button {
+  padding: 5px 10px;
+  background-color: #ff9800; /* Subscribe button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .feature-cards, .testimonial-cards {
+      flex-direction: column; /* Stack cards on smaller screens */
+      align-items: center;
+  }
+  
+  .feature-card, .testimonial-card {
+      width: 90%; /* Full width on small screens */
+  }
+}
